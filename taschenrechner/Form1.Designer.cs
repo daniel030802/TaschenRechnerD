@@ -45,6 +45,7 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnKomma = new System.Windows.Forms.Button();
             this.btnCls = new System.Windows.Forms.Button();
+            this.btnWurzel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbZahl1
@@ -237,12 +238,24 @@
             this.btnCls.UseVisualStyleBackColor = true;
             this.btnCls.Click += new System.EventHandler(this.btnCls_Click);
             // 
+            // btnWurzel
+            // 
+            this.btnWurzel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWurzel.Location = new System.Drawing.Point(646, 353);
+            this.btnWurzel.Name = "btnWurzel";
+            this.btnWurzel.Size = new System.Drawing.Size(192, 62);
+            this.btnWurzel.TabIndex = 17;
+            this.btnWurzel.Text = "Wurzelfunktion";
+            this.btnWurzel.UseVisualStyleBackColor = true;
+            this.btnWurzel.Click += new System.EventHandler(this.btnWurzel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(893, 526);
+            this.Controls.Add(this.btnWurzel);
             this.Controls.Add(this.btnCls);
             this.Controls.Add(this.btnKomma);
             this.Controls.Add(this.btn0);
@@ -289,6 +302,7 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnKomma;
         private System.Windows.Forms.Button btnCls;
+        private System.Windows.Forms.Button btnWurzel;
     }
 }
 
