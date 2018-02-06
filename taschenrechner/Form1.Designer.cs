@@ -46,6 +46,7 @@
             this.btnKomma = new System.Windows.Forms.Button();
             this.btnCls = new System.Windows.Forms.Button();
             this.btnWurzel = new System.Windows.Forms.Button();
+            this.btnPythagoras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbZahl1
@@ -241,7 +242,7 @@
             // btnWurzel
             // 
             this.btnWurzel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWurzel.Location = new System.Drawing.Point(646, 353);
+            this.btnWurzel.Location = new System.Drawing.Point(646, 267);
             this.btnWurzel.Name = "btnWurzel";
             this.btnWurzel.Size = new System.Drawing.Size(192, 62);
             this.btnWurzel.TabIndex = 17;
@@ -249,12 +250,24 @@
             this.btnWurzel.UseVisualStyleBackColor = true;
             this.btnWurzel.Click += new System.EventHandler(this.btnWurzel_Click);
             // 
+            // btnPythagoras
+            // 
+            this.btnPythagoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPythagoras.Location = new System.Drawing.Point(646, 380);
+            this.btnPythagoras.Name = "btnPythagoras";
+            this.btnPythagoras.Size = new System.Drawing.Size(192, 56);
+            this.btnPythagoras.TabIndex = 18;
+            this.btnPythagoras.Text = "Pythagoras";
+            this.btnPythagoras.UseVisualStyleBackColor = true;
+            this.btnPythagoras.Click += new System.EventHandler(this.btnPythagoras_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(893, 526);
+            this.Controls.Add(this.btnPythagoras);
             this.Controls.Add(this.btnWurzel);
             this.Controls.Add(this.btnCls);
             this.Controls.Add(this.btnKomma);
@@ -303,6 +316,7 @@
         private System.Windows.Forms.Button btnKomma;
         private System.Windows.Forms.Button btnCls;
         private System.Windows.Forms.Button btnWurzel;
+        private System.Windows.Forms.Button btnPythagoras;
     }
 }
 

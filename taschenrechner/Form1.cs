@@ -233,5 +233,11 @@ namespace taschenrechner
             Form2 frm2 = new Form2();
             frm2.ShowDialog();
         }
+
+        private void btnPythagoras_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            frm3.ShowDialog();
+        }
     }
 }
