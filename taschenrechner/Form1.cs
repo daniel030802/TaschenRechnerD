@@ -228,16 +228,12 @@ namespace taschenrechner
             txtbErgebnis.Text = "";
         }
 
-        private void btnWurzel_Click(object sender, EventArgs e)
-        {
-            Form2 frm2 = new Form2();
-            frm2.ShowDialog();
-        }
+        
 
-        private void btnPythagoras_Click(object sender, EventArgs e)
+        private void btnMenue_Click(object sender, EventArgs e)
         {
-            Form3 frm3 = new Form3();
-            frm3.ShowDialog();
+            Form4 frm4 = new Form4();
+            frm4.ShowDialog();
         }
     }
 }
