@@ -247,7 +247,6 @@
             this.btnWurzel.TabIndex = 17;
             this.btnWurzel.Text = "Wurzelfunktion";
             this.btnWurzel.UseVisualStyleBackColor = true;
-            this.btnWurzel.Click += new System.EventHandler(this.btnWurzel_Click);
             // 
             // Form1
             // 
