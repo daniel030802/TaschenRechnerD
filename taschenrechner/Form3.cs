@@ -24,14 +24,14 @@ namespace taschenrechner
 
         private void btna_Click(object sender, EventArgs e)
         {
-            b = Convert.ToDouble(txtbb.Text);
-            c = Convert.ToDouble(txtbc.Text);
-            if (txtbb.Text == "")
+            
+            if (txtbb.Text == "" || txtbc.Text == "")
             { }
-            if (txtbc.Text == "")
-            { }
+            
             else
             {
+                b = Convert.ToDouble(txtbb.Text);
+                c = Convert.ToDouble(txtbc.Text);
                 a = Math.Sqrt((c * c) - (b * b));
                 txtba.Text = a.ToString();
 
@@ -40,14 +40,15 @@ namespace taschenrechner
 
         private void btnb_Click(object sender, EventArgs e)
         {
-            a = Convert.ToDouble(txtba.Text);
-            c = Convert.ToDouble(txtbc.Text);
-            if (txtba.Text == "")
+            
+            if (txtba.Text == "" || txtbc.Text == "")
             { }
-            if (txtbc.Text == "")
-            { }
+            
+            
             else
             {
+                a = Convert.ToDouble(txtba.Text);
+                c = Convert.ToDouble(txtbc.Text);
                 b = Math.Sqrt((c * c) - (a * a));
                 txtbb.Text = b.ToString();
             }
@@ -55,14 +56,15 @@ namespace taschenrechner
 
         private void btnc_Click(object sender, EventArgs e)
         {
-            b = Convert.ToDouble(txtbb.Text);
-            a = Convert.ToDouble(txtba.Text);
-            if (txtbb.Text == "")
+            
+            if (txtbb.Text == "" || txtba.Text == "")
             { }
-            if (txtba.Text == "")
-            { }
+           
+            
             else
             {
+                b = Convert.ToDouble(txtbb.Text);
+                a = Convert.ToDouble(txtba.Text);
                 c = Math.Sqrt((a * a) + (b * b));
                 txtbc.Text = c.ToString();
             }
